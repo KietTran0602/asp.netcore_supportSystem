@@ -1,0 +1,95 @@
+﻿<script src="~/js/jquery-3.7.1.min.js"></script>
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <div class="container-fluid">
+        <h3>@ViewBag.nhanvien.Username Detail</h3>
+    </div><!-- /.container-fluid -->
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">@ViewBag.nhanvien.Username request</h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body p-0">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Title</th>
+                                    <th>Content</th>
+                                    <th>Send date</th>
+                                    <th>Priority</th>
+                                    <th>Send by</th>
+                                    <th>Assign to</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var y in @ViewBag.yeucaus)
+                                {
+                                    <tr>
+                                        <td>@y.Mayeucau</td>
+                                        <td>@y.Tieude</td>
+                                        <td>@y.Noidung</td>
+                                        <td>@y.Ngaygui</td>
+                                        <td>@y.MadouutienNavigation.Tendouutien</td>
+                                        <td>@y.ManvGuiNavigation.Hoten</td>
+                                        <td>
+                                            <select class="comboboxAsign">
+                                                <option value="-1">Select supporter</option>
+                                                @foreach(var n in ViewBag.nhanviens)
+                                                {   @if(n.Username == y.ManvXuly)
+                                                    {
+                                                        <option value="@n.Username" selected>@n.Hoten</option>
+                                                    }
+                                                    else
+                                                    {
+                                                        <option value="@n.Username">@n.Hoten</option>
+                                                    }                                                
+                                            }
+                                            </select>
+                                            <input type="hidden" value="@y.Mayeucau" />
+                                            <p id ="result_@y.Mayeucau"></p>
+                                        </td>
+                                    </tr> 
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+            </div><!-- /.container-fluid -->
+</section>
+<!-- /.content -->  
+
+<script>
+    $(document).ready(function () {
+        $('.comboboxAsign').change(function () {
+            $('[id^="result_"]').html('');
+            var username = $(this).val();
+            var YeuCauId = $(this).closest('tr').find('input[type="hidden"]').val();
+            $.ajax({
+                type: 'POST',
+                url: '/admin/nhanvien/asign',
+                data: {
+                        username: username,
+                        YeuCauId: YeuCauId
+                },
+                success: function (data) {
+                    $('#result_' + YeuCauId).html(data.msg);
+                }
+            })
+
+        });
+    });
+
+</script>

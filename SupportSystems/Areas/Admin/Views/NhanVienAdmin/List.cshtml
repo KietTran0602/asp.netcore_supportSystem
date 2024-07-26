@@ -1,0 +1,76 @@
+﻿
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>Simple Tables</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active">Simple Tables</li>
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Nhan Vien Table</h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Photo</th>
+                                    <th>Username</th>
+                                    <th>Name</th>
+                                    <th>Birthday</th>
+                                    <th>Status</th>
+                                    <th>Permission</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var nhanvien in ViewBag.NhanViens)
+                                {
+                                    <tr>
+                                        <td class ="centertext"><img src="~/images/@nhanvien.Hinhanh" width="60px" height="60px" /></td>
+                                        <td class="centertext">@nhanvien.Username</td>
+                                        <td class="centertext">@nhanvien.Hoten</td>
+                                        <td class ="centertext">@nhanvien.Ngaysinh.ToString("dd/MM/yyyy")</td>
+                                        <td class="centertext">@nhanvien.Kichhoat</td>
+                                        <td class="centertext">@nhanvien.Quyen</td>
+                                        <td class="centertext"><button type="text"><a asp-area="admin" asp-controller="nhanvien" asp-action="nvdetails" asp-route-username="@nhanvien.Username">Details</a></button></td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.card-body -->
+                    <div class="card-footer clearfix">
+                        <ul class="pagination pagination-sm m-0 float-right">
+                            <li class="page-item"><a class="page-link" href="#">&laquo;</a></li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /.card -->
+    </div><!-- /.container-fluid -->
+</section>
+<!-- /.content -->

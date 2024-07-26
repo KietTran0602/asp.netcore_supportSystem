@@ -1,0 +1,66 @@
+﻿@model SupportSystems.Models.NhanVien
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+<script>
+    $(function () {
+        $("#dob").datepicker({
+            dateFormat: 'dd/mm/yy'
+        });
+    });
+</script>
+<div class="card card-success">
+    <div class="card-header">
+        <h3 class="card-title">Edit profile</h3>
+    </div>
+    <div class="card-body">
+        <form method="post" asp-controller="nhanvien" asp-action="edit">
+            <div class="card-body">
+
+                <div class="form-group">
+                    <label>Username</label>
+                    <input type="password" class="form-control" value="@Model.Username" disabled>
+                </div>
+
+                <div class="form-group">
+                    <label>Password</label>
+
+                    <input type="password" class="form-control" asp-for="Password">
+                </div>
+
+                <div class="form-group">
+                    <label>Fullname</label>
+                    <input type="text" class="form-control" placeholder="Enter full name" asp-for="Hoten">
+                </div>
+
+                <div class="form-group">
+                    <label>Birthday</label>
+                    <input type="text" class="form-control" placeholder="Enter birthday" asp-for="Ngaysinh" asp-format="{0:MM/dd/yyyy}" id="dob">
+                </div>
+
+                <div class="form-group">
+                    <label>Status</label>
+                    <input type="checkbox" class="form-control" value="@Model.Kichhoat" disabled>
+                </div>
+
+                <div class="form-group">
+                    <input type="file" class="form-control" asp-for="Hinhanh" name="file" accept=".png,.jpg,.gif" />
+                </div>
+
+                <div class="form-group">
+                    <label>Permission</label>
+                    <input type="text" value="@Model.Quyen" disabled />
+                </div>
+
+            </div>
+            <!-- /.card-body -->
+            <div class="card-footer">
+                <button type="submit" class="btn btn-primary">Save</button>
+            </div>
+        </form>
+    </div>
+    <!-- /.card-body -->
+</div>

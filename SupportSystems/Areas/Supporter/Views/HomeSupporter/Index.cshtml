@@ -1,0 +1,185 @@
+﻿@{
+    Layout = "~/Areas/Supporter/Views/Shared/_Layout.cshtml";
+}
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+<script>
+    $(function () {
+        $("#fromdate").datepicker({
+            dateFormat: 'dd/mm/yy'
+        });
+        $("#todate").datepicker({
+            dateFormat: 'dd/mm/yy'
+        });
+    });
+</script>
+<!-- Content Header (Page header) -->
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">Dashboard</h1>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active">Dashboard v1</li>
+                </ol>
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+<!-- /.content-header -->
+<!-- Main content -->
+<section class="content">
+    <div class="container-fluid">
+        <!-- Small boxes (Stat box) -->
+        <div class="row">
+            <div class="col-6">
+                <div class="input-group input-group-lg">
+                    <input type="text" class="form-control form-control-lg" placeholder="From date" id="fromdate">
+                    <input type="text" class="form-control form-control-lg" placeholder="To date" id="todate">
+                    <div class="input-group-append">
+                        <button type="button" class="btn btn-lg btn-default" id="buttonSearchDate">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        <p id="#result"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="input-group input-group-lg">
+                    <select id="priority">
+                        <option value="-1">Select priority</option>
+                        @foreach (var d in ViewBag.douutien)
+                        {
+                            <option value="@d.Madouutien">@d.Tendouutien</option>
+                        }
+                        
+                    </select>
+                    <div class="input-group-append">
+                        <button type="button" class="btn btn-lg btn-default" id="buttonSearchPriority">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        <p id="#result2"></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <!-- Left col -->
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Request</h3>
+                    </div>
+
+
+                        
+
+                    <!-- /.card-header -->
+                    <div class="card-body">
+                        <table id="example2" class="table table-bordered table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Title</th>
+                                    <th>Content</th>
+                                    <th>Send date</th>
+                                    <th>Priority</th>
+                                    <th>Send by</th>
+                                    <th>Assign to</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var y in @ViewBag.yeucaus)
+                                {
+                                    <tr>
+                                        <td>@y.Tieude</td>
+                                        <td>@y.Noidung</td>
+                                        <td>@y.Ngaygui</td>
+                                        <td>@y.MadouutienNavigation.Tendouutien</td>
+                                        <td>@y.ManvGuiNavigation.Hoten</td>
+                                        <td>@y.ManvXulyNavigation.Hoten</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /.content -->
+
+<script>
+    $(document).ready(function () {
+        $('#buttonSearchDate').click(function () {
+            var fromdate = $('#fromdate').val();
+            var todate = $('#todate').val();
+            $.ajax({
+                type: 'GET',
+                url: '/supporter/home/datesearch',
+                data:
+                {
+                    fromdate: fromdate,
+                    todate: todate,
+                },
+                success: function (data) {
+                    if (data.msg) {
+                        $('#result').html(data.msg);
+                    }
+                    else {
+                        s = '';
+                        for (var i = 0; i < data.length; i++) {
+                            s += '<tr>';
+                            s += '<td>' + data[i].tieude + '</td>';
+                            s += '<td>' + data[i].noidung + '</td>';
+                            s += '<td>' + data[i].ngaygui + '</td>';
+                            s += '<td>' + data[i].tendouutien + '</td>';
+                            s += '<td>' + data[i].tennvgui + '</td>';
+                            s += '<td>' + data[i].tennvxuly + '</td>';
+                            s += '</tr>';
+                        }
+                        $('#example2 tbody').html(s);
+                    }
+                }
+            });
+        });
+
+        $('#buttonSearchPriority').click(function () {
+            var priority = $('#priority').val();
+            $.ajax({
+                type: 'GET',
+                url: '/supporter/home/priority',
+                data: {
+                    priority: priority
+                },
+                success: function (data) {
+                    if (data.msg) {
+                        $('#result2').html(data.msg);
+                    }
+                    else {
+                        s = '';
+                        for (var i = 0; i < data.length; i++) {
+                            s += '<tr>';
+                            s += '<td>' + data[i].tieude + '</td>';
+                            s += '<td>' + data[i].noidung + '</td>';
+                            s += '<td>' + data[i].ngaygui + '</td>';
+                            s += '<td>' + data[i].tendouutien + '</td>';
+                            s += '<td>' + data[i].tennvgui + '</td>';
+                            s += '<td>' + data[i].tennvxuly + '</td>';
+                            s += '</tr>';
+                        }
+                        $('#example2 tbody').html(s);
+                    }
+                }
+            });
+        });
+    });
+</script>

@@ -1,0 +1,533 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\trana\\source\\repos\\SupportSystems\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|c:\\users\\trana\\source\\repos\\supportsystems\\supportsystems\\views\\yeucau\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|solutionrelative:supportsystems\\views\\yeucau\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|c:\\users\\trana\\source\\repos\\supportsystems\\supportsystems\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|solutionrelative:supportsystems\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|c:\\users\\trana\\source\\repos\\supportsystems\\supportsystems\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|solutionrelative:supportsystems\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|c:\\users\\trana\\source\\repos\\supportsystems\\supportsystems\\views\\nhanvien\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|solutionrelative:supportsystems\\views\\nhanvien\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|c:\\users\\trana\\source\\repos\\supportsystems\\supportsystems\\services\\yeucauserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|solutionrelative:supportsystems\\services\\yeucauserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|c:\\users\\trana\\source\\repos\\supportsystems\\supportsystems\\services\\yeucauservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|solutionrelative:supportsystems\\services\\yeucauservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|c:\\users\\trana\\source\\repos\\supportsystems\\supportsystems\\services\\accountserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|solutionrelative:supportsystems\\services\\accountserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|c:\\users\\trana\\source\\repos\\supportsystems\\supportsystems\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|solutionrelative:supportsystems\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|c:\\users\\trana\\source\\repos\\supportsystems\\supportsystems\\areas\\admin\\views\\homeadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|solutionrelative:supportsystems\\areas\\admin\\views\\homeadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|c:\\users\\trana\\source\\repos\\supportsystems\\supportsystems\\areas\\admin\\views\\nhanvienadmin\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|solutionrelative:supportsystems\\areas\\admin\\views\\nhanvienadmin\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|c:\\users\\trana\\source\\repos\\supportsystems\\supportsystems\\areas\\admin\\controllers\\loginadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|solutionrelative:supportsystems\\areas\\admin\\controllers\\loginadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|c:\\users\\trana\\source\\repos\\supportsystems\\supportsystems\\areas\\admin\\controllers\\homeadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|solutionrelative:supportsystems\\areas\\admin\\controllers\\homeadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|c:\\users\\trana\\source\\repos\\supportsystems\\supportsystems\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|solutionrelative:supportsystems\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|c:\\users\\trana\\source\\repos\\supportsystems\\supportsystems\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|solutionrelative:supportsystems\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|c:\\users\\trana\\source\\repos\\supportsystems\\supportsystems\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|solutionrelative:supportsystems\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|c:\\users\\trana\\source\\repos\\supportsystems\\supportsystems\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|solutionrelative:supportsystems\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|c:\\users\\trana\\source\\repos\\supportsystems\\supportsystems\\areas\\admin\\views\\loginadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|solutionrelative:supportsystems\\areas\\admin\\views\\loginadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|c:\\users\\trana\\source\\repos\\supportsystems\\supportsystems\\areas\\admin\\views\\nhanvienadmin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|solutionrelative:supportsystems\\areas\\admin\\views\\nhanvienadmin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|c:\\users\\trana\\source\\repos\\supportsystems\\supportsystems\\areas\\supporter\\controllers\\nhanviensupportercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|solutionrelative:supportsystems\\areas\\supporter\\controllers\\nhanviensupportercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|c:\\users\\trana\\source\\repos\\supportsystems\\supportsystems\\areas\\supporter\\views\\loginsupporter\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|solutionrelative:supportsystems\\areas\\supporter\\views\\loginsupporter\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|c:\\users\\trana\\source\\repos\\supportsystems\\supportsystems\\areas\\supporter\\views\\nhanviensupporter\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|solutionrelative:supportsystems\\areas\\supporter\\views\\nhanviensupporter\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|c:\\users\\trana\\source\\repos\\supportsystems\\supportsystems\\areas\\supporter\\views\\homesupporter\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|solutionrelative:supportsystems\\areas\\supporter\\views\\homesupporter\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|c:\\users\\trana\\source\\repos\\supportsystems\\supportsystems\\controllers\\yeucaucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|solutionrelative:supportsystems\\controllers\\yeucaucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|c:\\users\\trana\\source\\repos\\supportsystems\\supportsystems\\models\\yeucau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|solutionrelative:supportsystems\\models\\yeucau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|c:\\users\\trana\\source\\repos\\supportsystems\\supportsystems\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|solutionrelative:supportsystems\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|c:\\users\\trana\\source\\repos\\supportsystems\\supportsystems\\areas\\supporter\\controllers\\loginsupportercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|solutionrelative:supportsystems\\areas\\supporter\\controllers\\loginsupportercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|c:\\users\\trana\\source\\repos\\supportsystems\\supportsystems\\areas\\supporter\\controllers\\homesupportercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|solutionrelative:supportsystems\\areas\\supporter\\controllers\\homesupportercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|c:\\users\\trana\\source\\repos\\supportsystems\\supportsystems\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|solutionrelative:supportsystems\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|c:\\users\\trana\\source\\repos\\supportsystems\\supportsystems\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|solutionrelative:supportsystems\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|c:\\users\\trana\\source\\repos\\supportsystems\\supportsystems\\views\\yeucau\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|solutionrelative:supportsystems\\views\\yeucau\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|c:\\users\\trana\\source\\repos\\supportsystems\\supportsystems\\areas\\admin\\views\\nhanvienadmin\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63233A95-F69B-4C3F-AADB-92473ABD9FFB}|SupportSystems\\SupportSystems.csproj|solutionrelative:supportsystems\\areas\\admin\\views\\nhanvienadmin\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 217,
+          "SelectedChildIndex": 29,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountServiceImpl.cs",
+              "DocumentMoniker": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Services\\AccountServiceImpl.cs",
+              "RelativeDocumentMoniker": "SupportSystems\\Services\\AccountServiceImpl.cs",
+              "ToolTip": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Services\\AccountServiceImpl.cs",
+              "RelativeToolTip": "SupportSystems\\Services\\AccountServiceImpl.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowB0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T07:22:18.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "SupportSystems\\Services\\AccountService.cs",
+              "ToolTip": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Services\\AccountService.cs",
+              "RelativeToolTip": "SupportSystems\\Services\\AccountService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T07:22:01.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\appsettings.json",
+              "RelativeDocumentMoniker": "SupportSystems\\appsettings.json",
+              "ToolTip": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\appsettings.json",
+              "RelativeToolTip": "SupportSystems\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-23T07:11:18.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "SupportSystems\\wwwroot\\css\\style.css",
+              "ToolTip": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "SupportSystems\\wwwroot\\css\\style.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-23T07:07:39.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginAdminController.cs",
+              "DocumentMoniker": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Areas\\Admin\\Controllers\\LoginAdminController.cs",
+              "RelativeDocumentMoniker": "SupportSystems\\Areas\\Admin\\Controllers\\LoginAdminController.cs",
+              "ToolTip": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Areas\\Admin\\Controllers\\LoginAdminController.cs",
+              "RelativeToolTip": "SupportSystems\\Areas\\Admin\\Controllers\\LoginAdminController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwB0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T12:30:32.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeAdminController.cs",
+              "DocumentMoniker": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
+              "RelativeDocumentMoniker": "SupportSystems\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
+              "ToolTip": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
+              "RelativeToolTip": "SupportSystems\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T12:30:28.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Areas\\Admin\\Views\\NhanVienAdmin\\Add.cshtml",
+              "RelativeDocumentMoniker": "SupportSystems\\Areas\\Admin\\Views\\NhanVienAdmin\\Add.cshtml",
+              "ToolTip": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Areas\\Admin\\Views\\NhanVienAdmin\\Add.cshtml",
+              "RelativeToolTip": "SupportSystems\\Areas\\Admin\\Views\\NhanVienAdmin\\Add.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T11:06:26.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Areas\\Admin\\Views\\NhanVienAdmin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SupportSystems\\Areas\\Admin\\Views\\NhanVienAdmin\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Areas\\Admin\\Views\\NhanVienAdmin\\Edit.cshtml",
+              "RelativeToolTip": "SupportSystems\\Areas\\Admin\\Views\\NhanVienAdmin\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T11:06:25.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "SupportSystems\\Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
+              "RelativeToolTip": "SupportSystems\\Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T11:06:22.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Areas\\Admin\\Views\\LoginAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "SupportSystems\\Areas\\Admin\\Views\\LoginAdmin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Areas\\Admin\\Views\\LoginAdmin\\Index.cshtml",
+              "RelativeToolTip": "SupportSystems\\Areas\\Admin\\Views\\LoginAdmin\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T10:08:06.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "SupportSystems\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "SupportSystems\\Views\\Login\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T10:03:11.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "SupportSystems\\Views\\Login\\Login.cshtml",
+              "ToolTip": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "SupportSystems\\Views\\Login\\Login.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAABEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T10:03:11.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SupportSystems\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SupportSystems\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T10:03:06.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "YeuCau.cs",
+              "DocumentMoniker": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Models\\YeuCau.cs",
+              "RelativeDocumentMoniker": "SupportSystems\\Models\\YeuCau.cs",
+              "ToolTip": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Models\\YeuCau.cs",
+              "RelativeToolTip": "SupportSystems\\Models\\YeuCau.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T09:58:45.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "HomeSupporterController.cs",
+              "DocumentMoniker": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Areas\\Supporter\\Controllers\\HomeSupporterController.cs",
+              "RelativeDocumentMoniker": "SupportSystems\\Areas\\Supporter\\Controllers\\HomeSupporterController.cs",
+              "ToolTip": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Areas\\Supporter\\Controllers\\HomeSupporterController.cs",
+              "RelativeToolTip": "SupportSystems\\Areas\\Supporter\\Controllers\\HomeSupporterController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T09:39:34.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "SupportSystems\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "SupportSystems\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAcwEIAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T08:19:54.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LoginSupporterController.cs",
+              "DocumentMoniker": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Areas\\Supporter\\Controllers\\LoginSupporterController.cs",
+              "RelativeDocumentMoniker": "SupportSystems\\Areas\\Supporter\\Controllers\\LoginSupporterController.cs",
+              "ToolTip": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Areas\\Supporter\\Controllers\\LoginSupporterController.cs",
+              "RelativeToolTip": "SupportSystems\\Areas\\Supporter\\Controllers\\LoginSupporterController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T08:17:58.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Program.cs",
+              "RelativeDocumentMoniker": "SupportSystems\\Program.cs",
+              "ToolTip": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Program.cs",
+              "RelativeToolTip": "SupportSystems\\Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAmwA0AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T08:13:02.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SupportSystems\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SupportSystems\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAuwMEAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T07:58:19.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Areas\\Supporter\\Views\\NhanVienSupporter\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SupportSystems\\Areas\\Supporter\\Views\\NhanVienSupporter\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Areas\\Supporter\\Views\\NhanVienSupporter\\Edit.cshtml",
+              "RelativeToolTip": "SupportSystems\\Areas\\Supporter\\Views\\NhanVienSupporter\\Edit.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAcwDQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T07:57:06.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Views\\Nhanvien\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SupportSystems\\Views\\Nhanvien\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Views\\Nhanvien\\Edit.cshtml",
+              "RelativeToolTip": "SupportSystems\\Views\\Nhanvien\\Edit.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAwwDEAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T07:57:05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "NhanvienController.cs",
+              "DocumentMoniker": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Controllers\\NhanvienController.cs",
+              "RelativeDocumentMoniker": "SupportSystems\\Controllers\\NhanvienController.cs",
+              "ToolTip": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Controllers\\NhanvienController.cs",
+              "RelativeToolTip": "SupportSystems\\Controllers\\NhanvienController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAqwBsAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T07:54:10.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "NhanVienSupporterController.cs",
+              "DocumentMoniker": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Areas\\Supporter\\Controllers\\NhanVienSupporterController.cs",
+              "RelativeDocumentMoniker": "SupportSystems\\Areas\\Supporter\\Controllers\\NhanVienSupporterController.cs",
+              "ToolTip": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Areas\\Supporter\\Controllers\\NhanVienSupporterController.cs",
+              "RelativeToolTip": "SupportSystems\\Areas\\Supporter\\Controllers\\NhanVienSupporterController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAACcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T07:37:20.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Views\\Yeucau\\Add.cshtml",
+              "RelativeDocumentMoniker": "SupportSystems\\Views\\Yeucau\\Add.cshtml",
+              "ToolTip": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Views\\Yeucau\\Add.cshtml",
+              "RelativeToolTip": "SupportSystems\\Views\\Yeucau\\Add.cshtml",
+              "ViewState": "AQIAACAAAAAAAAAAAAAswEQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T07:31:30.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "YeucauService.cs",
+              "DocumentMoniker": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Services\\YeucauService.cs",
+              "RelativeDocumentMoniker": "SupportSystems\\Services\\YeucauService.cs",
+              "ToolTip": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Services\\YeucauService.cs",
+              "RelativeToolTip": "SupportSystems\\Services\\YeucauService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwAYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T07:26:45.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "YeucauServiceImpl.cs",
+              "DocumentMoniker": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Services\\YeucauServiceImpl.cs",
+              "RelativeDocumentMoniker": "SupportSystems\\Services\\YeucauServiceImpl.cs",
+              "ToolTip": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Services\\YeucauServiceImpl.cs",
+              "RelativeToolTip": "SupportSystems\\Services\\YeucauServiceImpl.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAWwCMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T07:26:44.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Views\\Yeucau\\List.cshtml",
+              "RelativeDocumentMoniker": "SupportSystems\\Views\\Yeucau\\List.cshtml",
+              "ToolTip": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Views\\Yeucau\\List.cshtml",
+              "RelativeToolTip": "SupportSystems\\Views\\Yeucau\\List.cshtml",
+              "ViewState": "AQIAALIAAAAAAAAAAAAIwLYAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T07:24:59.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "YeucauController.cs",
+              "DocumentMoniker": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Controllers\\YeucauController.cs",
+              "RelativeDocumentMoniker": "SupportSystems\\Controllers\\YeucauController.cs",
+              "ToolTip": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Controllers\\YeucauController.cs",
+              "RelativeToolTip": "SupportSystems\\Controllers\\YeucauController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAwwFkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T07:18:45.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Areas\\Admin\\Views\\NhanVienAdmin\\List.cshtml",
+              "RelativeDocumentMoniker": "SupportSystems\\Areas\\Admin\\Views\\NhanVienAdmin\\List.cshtml",
+              "ToolTip": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Areas\\Admin\\Views\\NhanVienAdmin\\List.cshtml",
+              "RelativeToolTip": "SupportSystems\\Areas\\Admin\\Views\\NhanVienAdmin\\List.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAC4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T07:18:06.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Areas\\Supporter\\Views\\LoginSupporter\\Index.cshtml",
+              "RelativeDocumentMoniker": "SupportSystems\\Areas\\Supporter\\Views\\LoginSupporter\\Index.cshtml",
+              "ToolTip": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Areas\\Supporter\\Views\\LoginSupporter\\Index.cshtml",
+              "RelativeToolTip": "SupportSystems\\Areas\\Supporter\\Views\\LoginSupporter\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T07:17:50.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Areas\\Supporter\\Views\\HomeSupporter\\Index.cshtml",
+              "RelativeDocumentMoniker": "SupportSystems\\Areas\\Supporter\\Views\\HomeSupporter\\Index.cshtml",
+              "ToolTip": "C:\\Users\\trana\\source\\repos\\SupportSystems\\SupportSystems\\Areas\\Supporter\\Views\\HomeSupporter\\Index.cshtml",
+              "RelativeToolTip": "SupportSystems\\Areas\\Supporter\\Views\\HomeSupporter\\Index.cshtml",
+              "ViewState": "AQIAAJIAAAAAAAAAAAAuwJsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T07:17:46.918Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

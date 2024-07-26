@@ -1,0 +1,99 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@model SupportSystems.Models.NhanVien
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+<script>
+    $(function () {
+        $("#dob").datepicker({
+            dateFormat: 'mm/dd/yy'
+        });
+    });
+</script>
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>General Form</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active">General Form</li>
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class ="col-md-3">&nbsp;</div>
+            <div class="col-md-6">
+                <div class="card card-primary">
+                    <div class="card-header">
+                        <h3 class="card-title">Add new employee</h3>
+                        <br/>
+                        <p>@TempData["msg"]</p>
+                    </div>
+                    <!-- /.card-header -->
+                    <!-- form start -->
+                    <form method="post" asp-area="admin" asp-controller="nhanvien" asp-action="add">
+                        <div class="card-body">
+
+                            <div class="form-group">
+                                <label>Username</label>
+                                <input type="text" class="form-control" placeholder="Enter username" asp-for="Username">
+                            </div>
+
+                            <div class="form-group">
+                                <label>Password</label>
+                                <input type="password" class="form-control" placeholder="Password" asp-for="Password">
+                            </div>
+
+                            <div class="form-group">
+                                <label>Fullname</label>
+                                <input type="text" class="form-control" placeholder="Enter full name" asp-for="Hoten">
+                            </div>
+
+                            <div class="form-group">
+                                <label>Birthday</label>
+                                <input type="text" class="form-control" placeholder="Enter birthday" asp-for="Ngaysinh" asp-format="{0:MM/dd/yyyy}" id="dob">
+                            </div>
+
+                            <div class="form-group">
+                                <label>Status</label>
+                                <input type="checkbox" class="form-control" asp-for="Kichhoat">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" class="form-control" asp-for="Hinhanh" value="1.gif" hidden>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Permission</label>
+                                <select asp-for="Quyen">
+                                    <option value="1">Nhan vien</option>
+                                    <option value="2">Nhan vien ho tro</option>
+                                </select>
+                            </div>
+
+                        </div>
+                        <!-- /.card-body -->
+                        <div class="card-footer">
+                            <button type="submit" class="btn btn-primary">Add</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-3">&nbsp;</div>
+        </div>
+        <!-- /.row -->
+    </div><!-- /.container-fluid -->
+</section>
+<!-- /.content -->

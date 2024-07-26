@@ -1,0 +1,110 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<!-- Content Header (Page header) -->
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">Dashboard</h1>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active">Dashboard v1</li>
+                </ol>
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+<!-- /.content-header -->
+<!-- Main content -->
+<section class="content">
+    <div class="container-fluid">
+        <!-- Small boxes (Stat box) -->
+        <div class="row">
+            <!-- Left col -->
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Request</h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body">
+                        <table id="example2" class="table table-bordered table-hover">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Title</th>
+                                    <th>Content</th>
+                                    <th>Send date</th>
+                                    <th>Priority</th>
+                                    <th>Send by</th>
+                                    <th>Assign to</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var y in @ViewBag.yeucaus)
+                                {
+                                    <tr>
+                                        <td>@y.Mayeucau</td>
+                                        <td>@y.Tieude</td>
+                                        <td>@y.Noidung</td>
+                                        <td>@y.Ngaygui</td>
+                                        <td>@y.MadouutienNavigation.Tendouutien</td>
+                                        <td>@y.ManvGuiNavigation.Hoten</td>
+                                        <td>
+                                            <select class="comboboxAsign">
+                                                <option value="-1">Select supporter</option>
+                                                @foreach (var n in ViewBag.nhanviens)
+                                                {   @if (n.Username == y.ManvXuly)
+                                                    {
+                                                        <option value="@n.Username" selected>@n.Hoten</option>
+                                                    }
+                                                    else
+                                                    {
+                                                        <option value="@n.Username">@n.Hoten</option>
+                                                    }
+                                                }
+                                            </select>
+                                            <input type="hidden" value="@y.Mayeucau" />
+                                            <p id="result_@y.Mayeucau"></p>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /.content -->
+
+<script>
+    $(document).ready(function () {
+        $('.comboboxAsign').change(function () {
+            $('[id^="result_"]').html('');
+            var username = $(this).val();
+            var YeuCauId = $(this).closest('tr').find('input[type="hidden"]').val();
+            $.ajax({
+                type: 'POST',
+                url: '/admin/nhanvien/asign',
+                data:
+                {
+                    username: username,
+                    YeuCauId: YeuCauId
+                },
+                success: function (data) {
+                    $('#result_' + YeuCauId).html(data.msg);
+                }
+            });
+        });
+        
+    });
+
+</script>
+
